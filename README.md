@@ -46,16 +46,16 @@ Here's what the config data structure looks like for each section:
 
 #### Basic Information
 ```typescript
-name: "Your Name",
-title: "Your Job Title",
-description: "Brief site description",
+name: Sri B
+title: Personal Web Developer
+description: Website ABOUT ME
 accentColor: "#1d4ed8", // Hex color for theme
 ```
 
 #### Social Links (all optional)
 ```typescript
 social: {
-  email: "your-email@example.com",
+  email: "sri2010bha@gmail.com",
   linkedin: "https://linkedin.com/in/yourprofile",
   twitter: "https://twitter.com/yourprofile", 
   github: "https://github.com/yourusername",
@@ -64,22 +64,26 @@ social: {
 
 #### About Section
 ```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
+aboutMe: Hi, I am Sri. I’m a junior at Metea Valley High School, and I am really into STEM and computer science. I have learned a bit of coding inside and outside of school by myself. I also have attended and gone to programs to learn more about physics in Fermilab.
 ```
 
 #### Skills
 ```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
+skills:
+Technical: Learned basic Python and Javascript
+Language: Fluent in English and Spanish (learned in school)
+Interests: Learning about new cars, Playing Basketball, Coding in free time
+
 ```
 
 #### Projects
 ```typescript
 projects: [
   {
-    name: "Project Name",
-    description: "Brief description of what the project does and its impact",
-    link: "https://github.com/yourusername/project",
-    skills: ["React", "Node.js", "AWS"], // Technologies used
+name: Personal Portfolio Website
+ What it is: A personal website and digital portfolio to showcase my achievements
+ What you did: Structured the website pages, customized user interface, and ensured responsive design for mobile and all devices
+ Technologies used: HTML, CSS, Git, GitHub pages
   }
 ]
 ```
@@ -104,13 +108,21 @@ experience: [
 ```typescript
 education: [
   {
-    school: "University Name",
-    degree: "Bachelor of Science in Computer Science",
-    dateRange: "2014 - 2018",
+    school: Metea Valley High School
+    year: Junior
+    dateRange: 2024 - 2028
     achievements: [
-      "Graduated Magna Cum Laude with 3.8 GPA",
-      "Dean's List all semesters",
-      "President of Computer Science Club"
+      Key Club	    City, State
+Member	  Sep 2024 – May 2026
+Collaborated with an organization that is student led and helped plan community service
+Developed leadership skills and responsibility through volunteer work
+
+TedEd Club	    City, State
+Participant	  Sep 2025 – May 2026
+Developed strong public speaking skills
+Collaborated with peers to discuss ideas and give feedback
+
+
     ]
   }
 ]
