@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://sri2010bha.github.io',
-  base: '/My-project',
+  base: '/My-Project',
 });
