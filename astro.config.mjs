@@ -51,3 +51,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+import { defineConfig } from 'astro/config'
+
+export default defineConfig({
+  site: 'https://sub.example.com'
+})
+
+import { defineConfig } from 'astro/config'
+
+export default defineConfig({
+  site: 'https://sri2010bha.github.io',
